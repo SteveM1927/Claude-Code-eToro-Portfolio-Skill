@@ -1,0 +1,23 @@
+{
+  "skill_name": "etoro-stock",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Hey, how is my eToro portfolio doing today? Am I up or down?",
+      "expected_output": "Runs the etoro_portfolio.py script, fetches live data, shows portfolio value, daily P&L (up/down vs yesterday with $ and %), per-position breakdown with news, growth stock picks, and sends WhatsApp notification.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Give me my full eToro update — I want to see all my positions, how each stock is doing today, and what news could affect them.",
+      "expected_output": "Full briefing with all positions sorted by daily impact, news for each holding, macro context, 3-4 growth stock picks, delivered to both chat and WhatsApp.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Quick portfolio check — what's my eToro balance and am I up or down from yesterday?",
+      "expected_output": "Runs the script, shows total portfolio value, total daily P&L with percentage, brief per-holding summary, sends WhatsApp.",
+      "files": []
+    }
+  ]
+}
