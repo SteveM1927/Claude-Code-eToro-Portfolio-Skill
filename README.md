@@ -71,7 +71,7 @@ Add the following to `~/.claude/settings.json` under the `env` key:
 
 ### Getting your CallMeBot API key (WhatsApp)
 
-1. Add `+34 644 63 67 97` to your WhatsApp contacts
+1. Add `+34 694 23 41 84` to your WhatsApp contacts
 2. Send the message: `I allow callmebot to send me messages`
 3. You'll receive your API key by reply within a few minutes
 
